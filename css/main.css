@@ -31,7 +31,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Roboto bold",sans-serif;
+    font-family: "Roboto Bold",sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -59,7 +59,7 @@ ul,li {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3 {
@@ -85,9 +85,6 @@ header a {
     margin-right: 130;
 }
 
-
-
-
 .nav {
     display: flex;
     align-items: center;
@@ -105,6 +102,20 @@ header a {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 0.1em;
+    color: #040404;
+}
+
+.name {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: "Roboto Black",sans-serif;
+    text-align: center;
+}
+
+.about h2 {
+    margin-top: 50px;
+    text-align: center;
 }
 
 
