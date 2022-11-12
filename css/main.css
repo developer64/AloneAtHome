@@ -113,6 +113,11 @@ header a {
     text-align: center;
 }
 
+/* для выделения блока О компании */
+.about {
+    background-color: antiquewhite; 
+}
+
 .about h2 {
     margin-top: 50px;
 }
