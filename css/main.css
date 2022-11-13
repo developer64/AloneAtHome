@@ -32,6 +32,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roboto Bold",sans-serif;
+    font-size: 16px;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -116,10 +118,17 @@ header a {
 /* для выделения блока О компании */
 .about {
     background-color: antiquewhite; 
+    margin-top: 16px;
+
 }
 
 .about h2 {
-    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin: 20px 0;
+    font-size: 25px;
 }
 
 .column {
@@ -136,18 +145,123 @@ header a {
     clear: both;
 }
 
+.feedback {
+    margin-bottom: 16px;
+}
+
 .feedback h3 {
-    font-family: "Roboto Bold",sans-serif;
+    font-family: "Montserrat Bold",sans-serif;
     font-size: 20px;
+    margin-bottom: 16px;
   
 }
 
 .feedback h4 {
-    font-family: "Robobto Bold",sans-serif;
+    font-family: "Montseratt Bold",sans-serif;
 
 }
 
 .feedback p {
-    font-family: "Roboto Regular",sans-serif;
+    font-family: "Montserrat Regular",sans-serif;
+    font-size: 16px;
 
 }
+
+input[type=date], select {
+    width: 585px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=numbers], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .search {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+
+  .search h2 {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .search-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .search-content img {
+    width: 560px;
+
+  }
+
+  .right {
+    float: right;
+    padding: 0 20px 20px 0;
+    margin: 0 10px;
+ }
+
+ .column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 190px /* Should be removed. Only for demonstration */
+}
+
+.column1 img {
+    width: 335px;
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 190px
+}
+
+.column2 p {
+    height: 190px;
+	overflow: hidden;
+    color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #000, #000, rgba(0, 0, 0, 0));
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
