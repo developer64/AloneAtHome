@@ -330,4 +330,8 @@ footer .menu li {
     margin-right: 0;
 }
 
+/* Страница поиска домика-бочки */
+.select-house h2 {
+    text-align: center;
+}
 
