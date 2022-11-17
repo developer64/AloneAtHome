@@ -189,7 +189,7 @@ input[type=date], select {
   
   input[type=submit] {
     width: 30%;
-    background-color: #04AA6D;
+    background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -283,12 +283,58 @@ input[type=submit1]  {
     float: right;
 }
 
-  input[type=submit1]:hover {
+input[type=submit1]:hover {
     background-color: #45a049;
 }
 
 .promo-close {
-    float: right;
+    width: 450px;
+    position: relative;
+    margin: 16px auto;
+    text-align: center;
 }
 
+
+.container-promoclose {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+footer {
+    background-color: rgb(169, 236, 169);
+    padding: 25px;
+}
+
+footer .menu li {
+    margin-left: 210px;
+    margin-right: 0;
+}
+
+/* footer a {
+    margin-left: 160px;
+} */
+  
 
