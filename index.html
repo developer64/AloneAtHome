@@ -79,12 +79,12 @@
             <div class="search">
                 <h2>Поиск кемпинга</h2>
                 <div class="search-content">
-                    <form>
+                    <form action="search.html">
                         <label for="camping">Выбрать кемпинг</label>
                       <select id="camping" name="camping">
-                        <option value="australia">Тверская область</option>
-                        <option value="canada">Вологодская область</option>
-                        <option value="usa">Калужская область</option>
+                        <option value="australia">Омская область</option>
+                        <option value="canada">Краснодарский край</option>
+                        <option value="usa">Алтайский край</option>
                       </select>
                       <label for="dateOn">Выбрать дату заселения</label>
                       <input type="date" id="dateOn" name="date_on" placeholder="Ваша дата заселения">
@@ -97,8 +97,9 @@
                         <option value="num3">Выбрано: 3 человека</option>
                         <option value="num2">Выбрано: 4 человек</option>
                         <option value="num3">Выбрано: 5 человек</option>
-                      </select>  
-                      <input type="submit" value="Выбрать">
+                      </select>
+                      <form action="search.html">
+                        <input type="submit" value="Выбрать">
                     </form>
                     <div class="shema">
                         <img src="img/shema-poselka-2_big.jpg" alt="shema of camping" class="right">
@@ -218,8 +219,6 @@
                 </ul>
     
             </div>
-    </footer>
-
-                    
+    </footer>                    
 </body>
 </html>
