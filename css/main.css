@@ -80,11 +80,7 @@ header {
 }
 
 header a {
-    margin-left: 160px;
-}
-
-.logo {
-    margin-right: 130;
+    margin-right: 154px;
 }
 
 .nav {
@@ -350,3 +346,12 @@ footer .menu li {
 .column1 img {
     width: 450px;
 }
+
+/* Страница выбора домика бочки */
+.select-seat h3 {
+    text-align: center;
+}
+
+/* .form-seat img {
+    margin: 0 auto;
+} */
