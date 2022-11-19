@@ -232,7 +232,7 @@ input[type=submit]:hover {
     padding: 10px;
 }
 
-.column1 img {
+.promo-content .column1 img {
     width: 335px;
 }
 
@@ -352,6 +352,15 @@ footer .menu li {
     text-align: center;
 }
 
-/* .form-seat img {
-    margin: 0 auto;
-} */
+.select-seat .maps {
+    margin: 0px 116px;
+    padding: 20px
+}
+
+.select-seat h4 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.form-radio form {
+    margin-left: 165px;}
