@@ -5,8 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Страница бронирования</title>
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
-    
+        <!-- Блок Header -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="nav">
+                    <a href="index.html"><img src="/img/home.jpg" alt="Alone at Home" class="logo"></a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Акции</a>
+                        </li>
+                        <li>
+                            <a href="#">Поиск</a>
+                        </li>
+                        <li>
+                            <a href="#">Управление бронированием</a>
+                        </li>
+                    </ul>
+        
+                </div>
+                <div class="name">
+                    <h1>Alone at home</h1>
+                </div>
+            </div>
+        </header>
+        <section id="form-booking" class="form-booking">
+            <div class="container">
+                <div class="select-booking">
+                    <h3>Бронирование выбор дополнительных услуг</h3>
+                    <div class="order-date">
+                        <h4>Данные о заказе</h4>
+                        <form action="">
+                            <input type="text" value="Алтайский край">
+                        </form>
+                        <h4>Адрес кемпинга</h4>
+                        <form action="">
+                            <input type="text" value="Кемпинг на берегу озера">
+                        </form>
+                        <h4>Дата заселения</h4>
+                        <form action="">
+                            <input type="text" value="23 ноября 2022г.">
+                        </form>
+                        <h4>Дата выселения</h4>
+                        <form action="">
+                            <input type="text" value="10 декабря 2022г.">
+                        </form>
+                        <h4>Стоимость</h4>
+                        <form action="">
+                            <input type="text" value="56 000 рублей">
+                        </form>
+                    </div>
+                    <div class="guest-data">
+                        <h4>Данные о постояльцах</h4>
+                        <form action="">   
+                            <label for="fname">Имя</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Ваше Имя..">
+                            <label for="fname">Имя</label>
+                                <input type="text" id="sname" name="secondname" placeholder="Ваше Отчество..">
+                            <label for="lname">Фамилия</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Ваша Фамилия..">
+                            <label for="lname">Номер документа</label>
+                                <input type="text" id="document-number" name="document-number" placeholder="Серия и номер паспорта..">
+                            <label for="dateOn">Дата рождения</label>
+                                <input type="date" id="date-birth" name="date_birth" placeholder="Ваша дата рождения">
+                        </form>
+                    <div class="add-services">
+                        <h4>Выбрать дополнительные услуги</h4>
+                        <form>
+                            <label>
+                                <input type="checkbox" name="subscribe">Медицинское сопровождение<br>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="subscribe">Курьерские услуги<br>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="subscribe">Питание
+                            </label>                                                                                                                
+                        </form> 
+                    </div>                    
+                    <input type="submit" value="ОТПРАВИТЬ">
+                </div>                    
+            </div>
+        </section>
+        <!-- Блок footer -->
+        <footer id="footer" class="footer">
+            <div class="container">
+                
+                <div class="nav">
+                    <a href="tel:+18938392364" class="tel">
+                        +1 893 839-23-64
+                    </a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Акции</a>
+                        </li>
+                        <li>
+                            <a href="#">Поиск</a>
+                        </li>
+                        <li>
+                            <a href="#">Управление бронированием</a>
+                        </li>
+                    </ul>
+        
+                </div>
+        </footer> 
+
 </body>
 </html>

@@ -113,7 +113,7 @@ header a {
 
 /* для выделения блока О компании */
 .about {
-    background-color: antiquewhite; 
+    background-color: #F2F2F2; 
     margin-top: 16px;
 
 }
@@ -363,4 +363,34 @@ footer .menu li {
 }
 
 .form-radio form {
-    margin-left: 165px;}
+    margin-left: 165px;
+}
+
+.btn-booking {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 16px auto;
+}
+
+.select-booking h3 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.order-date {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.guest-data {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
